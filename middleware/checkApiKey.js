@@ -16,7 +16,7 @@ const checkApiKey = (req, res, next) => {
             return res.status(403).json({ error: 'Forbidden: Invalid API Key' });
         }
 
-        req.admin = results[0]; // Attach admin info to request
+        req.admin = results[0]; 
         next();
     });
 }
