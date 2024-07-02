@@ -1,16 +1,18 @@
 # WorkIndia-API
 1. Clone the repository:
 
+    ```bash
     git clone https://github.com/your-username/your-repo.git
     cd your-repo
+    ```
 
+1. Install dependencies:
 
-2. Install dependencies:
-
+    ``` bash
     npm install
+    ```
 
-
-3. Set up environment variables:
+2. Set up environment variables:
 
     Create a `.env` file in the root of your project and add the following:
 
@@ -28,7 +30,7 @@
 
     ```
 
-4. Start the server:
+3. Start the server:
 
     ```bash
     nodemon server.js
